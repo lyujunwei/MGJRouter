@@ -68,7 +68,7 @@ extern NSString *const MGJRouterParameterUserInfo;
 [MGJRouter openURL:@"mgj://search/bicycle?color=red"];
 ```
 
-### 定义一个全局的 URL PAttern 作为 Fallback
+### 定义一个全局的 URL Pattern 作为 Fallback
 
 ```objc
 [MGJRouter registerURLPattern:@"mgj://" toHandler:^(NSDictionary *routerParameters) {
