@@ -10,6 +10,12 @@ HHRouter 的 URL 查找是基于匹配，所以会更高效，MGJRouter 也是�
 
 于是就有了 MGJRouter。
 
+## 安装
+
+```
+pod 'MGJRouter', '~>0.8.0'
+```
+
 ## 使用姿势
 
 ### 最基本的使用
